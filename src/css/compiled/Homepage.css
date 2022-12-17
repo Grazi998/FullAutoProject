@@ -1,1 +1,241 @@
-/*# sourceMappingURL=Homepage.css.map */
+#heroSection .hero {
+  text-align: center;
+  background: url("https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+#heroSection .hero_container {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.329);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#heroSection .hero_container_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+#heroSection .hero_container_content_main_title {
+  text-shadow: 2px 1px 2px #000;
+  font-size: 5em;
+  color: rgba(255, 255, 255, 0.7);
+}
+#heroSection .hero_container_content_company_moto {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+#heroSection .hero_container_content_devider {
+  width: 50%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#heroSection .hero_container_content_social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+#heroSection .hero_container_content_social_button a {
+  display: inline-block;
+  color: #000;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  border-radius: 2rem;
+  background: #C0C0C0;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  transition: 0.2s;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+#heroSection .hero_container_content_social_button a:hover {
+  color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+}
+#heroSection .hero_container_content_scroll_sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 4rem;
+}
+#heroSection .hero_container_content_scroll_sign_text {
+  color: #fff;
+  font: normal 400 20px/1 "Josefin Sans", sans-serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  margin-top: 40px;
+}
+#heroSection .hero_container_content_scroll_sign_icon {
+  width: 24px;
+  height: 24px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+#pageContent .page_content {
+  background: url("https://68.media.tumblr.com/eb2382a5a4c996cfdab27bc0d1eb51ff/tumblr_nt5umxS1FY1ud7rr3o1_540.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+#pageContent .page_content_container {
+  background: rgba(0, 0, 0, 0.329);
+  height: 100%;
+}
+#pageContent .page_content_container_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 7rem 0;
+}
+#pageContent .page_content_container_content_title {
+  font-size: 3em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+}
+#pageContent .page_content_container_content_text {
+  font-size: 1.8em;
+  margin-top: 2rem;
+}
+#pageContent #ourServices {
+  /*.portfolio-item {
+      overflow: hidden;
+      padding: 7px;
+      color: white;
+      height: 308px;
+    }*/
+  /*Portfolio items*/
+}
+#pageContent #ourServices .our_services {
+  color: black;
+  background: url("https://68.media.tumblr.com/d3fd545cd977a174beef12c1106880bf/tumblr_nt505iKkul1ud7rr3o1_1280.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+#pageContent #ourServices .our_services_container_content_title {
+  font-size: 1.5em;
+}
+#pageContent #ourServices .our_services_container_content_subtitle {
+  color: #000;
+  font-size: 1.17em;
+}
+#pageContent #ourServices .our_services_container_content_gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#pageContent #ourServices .our_services_container_content_gallery_item {
+  max-width: 500px;
+}
+#pageContent #ourServices .our_services_container_content_gallery_item img {
+  max-width: 500px;
+}
+#pageContent #ourServices #portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+}
+#pageContent #ourServices #portfolio .portfolio-item:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.9);
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 25px;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-caption h4 {
+  color: #fff;
+  text-transform: none;
+  margin: 0;
+}
+#pageContent #ourServices #portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0;
+}
+#pageContent #ourServices #portfolio * {
+  z-index: 2;
+}/*# sourceMappingURL=Homepage.css.map */

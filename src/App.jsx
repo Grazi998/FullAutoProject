@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
+import Homepage from "./components/Homepage";
 
-import "./css/compiled/app.css"
+import "./css/compiled/app.css";
+
 
 function App() {
   return (
-    <div className='container'>
-
+    <div id="appWrapper">
+      <div id="shatteringContainer"></div>
+      <Homepage />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

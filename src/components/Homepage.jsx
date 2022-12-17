@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+import PageIntro from "./PageIntro";
+import Navigation from "./Navigation";
+import HeroSection from "./HomepageElements/HeroSection";
+import PageContent from "./HomepageElements/PageContent";
 
-import "../css/compiled/Homepage.css"
+import "../css/compiled/Homepage.css";
 
 function Homepage() {
   return (
-    <div>Homepage</div>
-  )
+    <div>
+      <PageIntro /> 
+      <div id="homepage">
+        <HeroSection />
+        <PageContent />
+      </div>
+    </div>
+  );
 }
 
-export default Homepage
+export default Homepage;
