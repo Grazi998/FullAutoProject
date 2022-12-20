@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 
 function WelcomeMessage() {
   const welcomeMsg = useRef(null);
-  const CHAR_TIME = 50;
+  const CHAR_TIME = 40;
 
   useEffect(() => {
     let text, index;
@@ -46,7 +46,7 @@ function WelcomeMessage() {
   return (
     <div className="welcome_message">
       <div className="welcome_message_content" ref={welcomeMsg}>
-        Welcome to Full Auto Solutions
+        Welcome to FullAuto Solutions
       </div>
     </div>
   );

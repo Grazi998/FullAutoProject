@@ -7,9 +7,16 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background: #000;
+    // background: rgb(36, 36, 36);
     position: fixed;
     z-index: 2;
+
+    background: rgba(0, 0, 0, 0.616);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+
 
     & .welcome_message {
 

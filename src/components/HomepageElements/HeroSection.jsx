@@ -15,11 +15,16 @@ function HeroSection() {
 
   return (
     <div id="heroSection">
+      <div className="video_wrapper">
+        <video autoPlay={true} loop muted>
+          <source src="src\media\videos\HeroBackground.mp4" type="video/mp4"></source>
+        </video>
+      </div>
       <div className="hero">
         <div className="hero_container">
           <div className="hero_container_content">
             <div className="hero_container_content_main_title">
-              Full Auto Solutions
+              FullAuto Solutions
             </div>
             <div className="hero_container_content_company_moto">
               We Are The Future

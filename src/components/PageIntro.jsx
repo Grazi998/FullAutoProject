@@ -4,11 +4,12 @@ import "../css/compiled/PageIntro.css";
 import { useEffect } from "react";
 
 function PageIntro() {
-  useEffect(()=>{
-    document.body.style.overflow="hidden";
-  }, [])
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+  }, []);
   return (
     <div id="pageIntroWrapper">
+      
       <WelcomeMessage />
       <ProceedButton />
     </div>

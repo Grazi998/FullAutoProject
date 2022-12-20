@@ -19,6 +19,7 @@ function ProceedButton() {
         { r: 150, c: 12 },
         { r: 300, c: 12 },
         { r: 1200, c: 12 },
+        { r: 1500, c: 12 },
       ],
       x,
       y,
@@ -70,7 +71,7 @@ function ProceedButton() {
         d = Math.sqrt(dx * dx + dy * dy),
         rx = 30 * sign(dy),
         ry = 90 * -sign(dx),
-        delay = d * 0.002 * randomRange(0.9, 1.1);
+        delay = d * 0.0008 * randomRange(0.9, 1.1);
       fragment.canvas.style.zIndex = Math.floor(d).toString();
       fragment.canvas.classList.add("fragment_canvas");
 
@@ -103,6 +104,7 @@ function ProceedButton() {
   }
 
   function LoadPage() {
+    document.getElementById("pageIntroWrapper").style.background = "rgba(0, 0, 0, 1)";
     html2canvas(document.getElementById("pageIntroWrapper")).then((canvas) => {
       image = canvas;
       imageWidth = image.width;

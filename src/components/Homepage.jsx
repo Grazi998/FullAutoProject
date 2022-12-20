@@ -1,6 +1,5 @@
 import React from "react";
 import PageIntro from "./PageIntro";
-import Navigation from "./Navigation";
 import HeroSection from "./HomepageElements/HeroSection";
 import PageContent from "./HomepageElements/PageContent";
 
