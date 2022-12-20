@@ -1,5 +1,16 @@
 import React from "react";
 
+import bgImage1 from '../../media/images/AboutUs/bg1.png'
+import bgImage2 from '../../media/images/AboutUs/bg2.png'
+import bgImage3 from '../../media/images/AboutUs/bg3.png'
+import person1 from '../../media/images/AboutUs/woman.png'
+import person2 from '../../media/images/AboutUs/woman1.png'
+import person3 from '../../media/images/AboutUs/man.png'
+
+
+
+
+
 function AboutUs() {
   return (
     <div id="aboutUs">
@@ -20,8 +31,8 @@ function AboutUs() {
               <div className="about_us_container_content_people_person">
                 <div className="about_us_container_content_people_person_info">
                   <div className="about_us_container_content_people_person_info_image">
-                    <img src={"src/media/images/AboutUs/bg3.png"} className="circle" />
-                    <img src={"src/media/images/AboutUs/woman1.png"} className="img img1" />
+                    <img src={bgImage2} className="circle" />
+                    <img src={person2} className="img img1" />
                   </div>
                   <div className="about_us_container_content_people_person_info_devider"></div>
                   <div className="about_us_container_content_people_person_info_name">
@@ -35,8 +46,8 @@ function AboutUs() {
               <div className="about_us_container_content_people_person">
                 <div className="about_us_container_content_people_person_info">
                   <div className="about_us_container_content_people_person_info_image">
-                    <img src={"src/media/images/AboutUs/bg2.png"} className="circle" />
-                    <img src={"src/media/images/AboutUs/woman.png"} className="img img2" />
+                    <img src={bgImage1} className="circle" />
+                    <img src={person1} className="img img2" />
                   </div>
                   <div className="about_us_container_content_people_person_info_devider"></div>
                   <div className="about_us_container_content_people_person_info_name">
@@ -50,8 +61,8 @@ function AboutUs() {
               <div className="about_us_container_content_people_person">
                 <div className="about_us_container_content_people_person_info">
                   <div className="about_us_container_content_people_person_info_image">
-                    <img src={"src/media/images/AboutUs/bg1.png"} className="circle" />
-                    <img src={"src/media/images/AboutUs/man.png"} className="img img3" />
+                    <img src={bgImage3} className="circle" />
+                    <img src={person3} className="img img3" />
                   </div>
                   <div className="about_us_container_content_people_person_info_devider"></div>
                   <div className="about_us_container_content_people_person_info_name">

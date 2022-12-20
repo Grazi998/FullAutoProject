@@ -1,5 +1,14 @@
 import React from "react";
 
+import palletizationImg from '../../media/images/palletization.jpg';
+import cellImg from '../../media/images/cell.jpg';
+import gripperImg from '../../media/images/gripper.jpg';
+import robot_bendingImg from '../../media/images/robot_bending.jpg';
+import millingImg from '../../media/images/milling.png';
+import packagingImg from '../../media/images/packaging.avif';
+
+
+
 function OurServices() {
   return (
     <div id="ourServices">
@@ -21,7 +30,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src={"src/media/images/palletization.jpg"}
+                    src={palletizationImg}
                     className="img-responsive"
                     alt=""
                   />
@@ -39,7 +48,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src={"src/media/images/robot_bending.jpg"}
+                    src={robot_bendingImg}
                     className="img-responsive"
                     alt=""
                   />
@@ -58,7 +67,7 @@ function OurServices() {
                 >
 
                   <img
-                    src={"src/media/images/gripper.jpg"}
+                    src={gripperImg}
                     className="img-responsive"
                     alt=""
                   />
@@ -76,7 +85,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src={"src/media/images/cell.jpg"}
+                    src={cellImg}
                     className="img-responsive"
                     alt=""
                   />
@@ -94,13 +103,13 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src={"src/media/images/packaging.avif"}
+                    src={packagingImg}
                     className="img-responsive"
                     alt=""
                   />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
-                  <div className="our_services_container_content_gallery_item_caption_title">packaging</div>
+                  <div className="our_services_container_content_gallery_item_caption_title">Packaging</div>
                 </div>
               </div>
 
@@ -112,7 +121,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src={"src/media/images/milling.png"}
+                    src={millingImg}
                     className="img-responsive"
                     alt=""
                   />
