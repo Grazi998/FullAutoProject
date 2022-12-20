@@ -17,7 +17,7 @@ function HeroSection() {
     <div id="heroSection">
       <div className="video_wrapper">
         <video autoPlay={true} loop muted>
-          <source src="src\media\videos\HeroBackground.mp4" type="video/mp4"></source>
+          <source src={"src/media/videos/HeroBackground.mp4"} type="video/mp4"></source>
         </video>
       </div>
       <div className="hero">

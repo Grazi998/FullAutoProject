@@ -21,7 +21,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src="src\media\images\palletization.jpg"
+                    src={"src/media/images/palletization.jpg"}
                     className="img-responsive"
                     alt=""
                   />
@@ -39,7 +39,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src="src\media\images\robot_bending.jpg"
+                    src={"src/media/images/robot_bending.jpg"}
                     className="img-responsive"
                     alt=""
                   />
@@ -58,7 +58,7 @@ function OurServices() {
                 >
 
                   <img
-                    src="src\media\images\gripper.jpg"
+                    src={"src/media/images/gripper.jpg"}
                     className="img-responsive"
                     alt=""
                   />
@@ -76,7 +76,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src="src\media\images\cell.jpg"
+                    src={"src/media/images/cell.jpg"}
                     className="img-responsive"
                     alt=""
                   />
@@ -94,7 +94,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src="src\media\images\packaging.avif"
+                    src={"src/media/images/packaging.avif"}
                     className="img-responsive"
                     alt=""
                   />
@@ -112,7 +112,7 @@ function OurServices() {
                   data-toggle="modal"
                 >
                   <img
-                    src="src\media\images\milling.png"
+                    src={"src/media/images/milling.png"}
                     className="img-responsive"
                     alt=""
                   />

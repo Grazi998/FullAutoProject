@@ -20,8 +20,8 @@ function AboutUs() {
               <div className="about_us_container_content_people_person">
                 <div className="about_us_container_content_people_person_info">
                   <div className="about_us_container_content_people_person_info_image">
-                    <img src="src\media\images\AboutUs\bg3.png" className="circle" />
-                    <img src="src\media\images\AboutUs\woman1.png" className="img img1" />
+                    <img src={"src/media/images/AboutUs/bg3.png"} className="circle" />
+                    <img src={"src/media/images/AboutUs/woman1.png"} className="img img1" />
                   </div>
                   <div className="about_us_container_content_people_person_info_devider"></div>
                   <div className="about_us_container_content_people_person_info_name">
@@ -35,8 +35,8 @@ function AboutUs() {
               <div className="about_us_container_content_people_person">
                 <div className="about_us_container_content_people_person_info">
                   <div className="about_us_container_content_people_person_info_image">
-                    <img src="src\media\images\AboutUs\bg2.png" className="circle" />
-                    <img src="src\media\images\AboutUs\woman.png" className="img img2" />
+                    <img src={"src/media/images/AboutUs/bg2.png"} className="circle" />
+                    <img src={"src/media/images/AboutUs/woman.png"} className="img img2" />
                   </div>
                   <div className="about_us_container_content_people_person_info_devider"></div>
                   <div className="about_us_container_content_people_person_info_name">
@@ -50,8 +50,8 @@ function AboutUs() {
               <div className="about_us_container_content_people_person">
                 <div className="about_us_container_content_people_person_info">
                   <div className="about_us_container_content_people_person_info_image">
-                    <img src="src\media\images\AboutUs\bg1.png" className="circle" />
-                    <img src="src\media\images\AboutUs\man.png" className="img img3" />
+                    <img src={"src/media/images/AboutUs/bg1.png"} className="circle" />
+                    <img src={"src/media/images/AboutUs/man.png"} className="img img3" />
                   </div>
                   <div className="about_us_container_content_people_person_info_devider"></div>
                   <div className="about_us_container_content_people_person_info_name">
