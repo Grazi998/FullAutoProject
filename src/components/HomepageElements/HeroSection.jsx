@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 
+import BGVideo from '../../media/videos/HeroBackground.mp4'
+
 function HeroSection() {
   const [showScroll, setShowScroll] = useState(true);
 
@@ -17,7 +19,7 @@ function HeroSection() {
     <div id="heroSection">
       <div className="video_wrapper">
         <video autoPlay={true} loop muted>
-          <source src={"src/media/videos/HeroBackground.mp4"} type="video/mp4"></source>
+          <source src={BGVideo} type="video/mp4"></source>
         </video>
       </div>
       <div className="hero">
