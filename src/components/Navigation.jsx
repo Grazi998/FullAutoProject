@@ -5,10 +5,10 @@ function Navigation() {
   return (
     <div id="navigation">
       <div id="header-nav">
-        <div className="container">
+        <div className="nav_container">
           <div className="brand">
-            <a href="/">
-              <h1>FullAuto Solutions</h1>
+            <a href="mailto:info@fullautosolutions.com">
+              info@fullautosolutions.com
             </a>
           </div>
           <a href="#menu" className="menu-link">
@@ -20,13 +20,16 @@ function Navigation() {
           <nav id="menu" role="navigation">
             <ul>
               <li>
-                <a href="#">About Us</a>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about-us">About Us</a>
               </li>
               <li>
                 <a href="#">Services</a>
               </li>
               <li>
-                <a href="#">How We Do It</a>
+                <a href="how-we-do-it">How We Do It</a>
               </li>
               <li>
                 <a href="#">Contact</a>

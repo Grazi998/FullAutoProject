@@ -1,13 +1,14 @@
 import React from "react";
 
-import palletizationImg from '../../media/images/palletization.jpg';
-import cellImg from '../../media/images/cell.jpg';
-import gripperImg from '../../media/images/gripper.jpg';
-import robot_bendingImg from '../../media/images/robot_bending.jpg';
-import millingImg from '../../media/images/milling.png';
-import packagingImg from '../../media/images/packaging.avif';
-
-
+import palletizationImg from "../../media/images/palletization.jpg";
+import cellImg from "../../media/images/cell.jpg";
+import gripperImg from "../../media/images/gripper.jpg";
+import robot_bendingImg from "../../media/images/robot_bending.jpg";
+import millingImg from "../../media/images/milling.png";
+import packagingImg from "../../media/images/packaging.avif";
+import consultingImg from "../../media/images/consulting.jpg";
+import educationImg from "../../media/images/education.jpg";
+import maintenanceImg from "../../media/images/maintenance.jpg";
 
 function OurServices() {
   return (
@@ -18,14 +19,10 @@ function OurServices() {
             <div className="our_services_container_content_title">
               Our Services
             </div>
-            {/* <div className="our_services_container_content_subtitle">
-              Below you'll find some of our services.
-            </div> */}
             <div className="our_services_container_content_gallery">
               <div className="our_services_container_content_gallery_item">
                 <a
-                  href=""
-                  target="_blank"
+                  href="/services/palletization"
                   className="portfolio-link"
                   data-toggle="modal"
                 >
@@ -36,17 +33,14 @@ function OurServices() {
                   />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
-                  <div className="our_services_container_content_gallery_item_caption_title">Palletization</div>
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Palletization
+                  </div>
                 </div>
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a
-                  href=""
-                  className="portfolio-link"
-                  target="_blank"
-                  data-toggle="modal"
-                >
+                <a href="/services/bending" className="portfolio-link" data-toggle="modal">
                   <img
                     src={robot_bendingImg}
                     className="img-responsive"
@@ -54,80 +48,86 @@ function OurServices() {
                   />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
-                  <div className="our_services_container_content_gallery_item_caption_title">Bending</div>
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Bending
+                  </div>
                 </div>
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a
-                  href=""
-                  target="_blank"
-                  className="portfolio-link"
-                  data-toggle="modal"
-                >
-
-                  <img
-                    src={gripperImg}
-                    className="img-responsive"
-                    alt=""
-                  />
+                <a href="/services/custom-grippers" className="portfolio-link" data-toggle="modal">
+                  <img src={gripperImg} className="img-responsive" alt="" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
-                  <div className="our_services_container_content_gallery_item_caption_title">Custom Grippers</div>
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Custom Grippers
+                  </div>
                 </div>
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a
-                  href=""
-                  target="_blank"
-                  className="portfolio-link"
-                  data-toggle="modal"
-                >
-                  <img
-                    src={cellImg}
-                    className="img-responsive"
-                    alt=""
-                  />
+                <a href="/services/custom-cells" className="portfolio-link" data-toggle="modal">
+                  <img src={cellImg} className="img-responsive" alt="" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
-                  <div className="our_services_container_content_gallery_item_caption_title">Custom Cells</div>
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Custom Cells
+                  </div>
                 </div>
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a
-                  href=""
-                  target="_blank"
-                  className="portfolio-link"
-                  data-toggle="modal"
-                >
-                  <img
-                    src={packagingImg}
-                    className="img-responsive"
-                    alt=""
-                  />
+                <a href="/services/packing" className="portfolio-link" data-toggle="modal">
+                  <img src={packagingImg} className="img-responsive" alt="" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
-                  <div className="our_services_container_content_gallery_item_caption_title">Packaging</div>
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Packing
+                  </div>
                 </div>
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a
-                  href=""
-                  target="_blank"
-                  className="portfolio-link"
-                  data-toggle="modal"
-                >
-                  <img
-                    src={millingImg}
-                    className="img-responsive"
-                    alt=""
-                  />
+                <a href="/services/milling" className="portfolio-link" data-toggle="modal">
+                  <img src={millingImg} className="img-responsive" alt="" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
-                  <div className="our_services_container_content_gallery_item_caption_title">Milling</div>
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Milling
+                  </div>
+                </div>
+              </div>
+
+              <div className="our_services_container_content_gallery_item smaller">
+                <a href="/services/consulting" className="portfolio-link" data-toggle="modal">
+                  <img src={consultingImg} className="img-responsive" alt="" />
+                </a>
+                <div className="our_services_container_content_gallery_item_caption">
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Consulting
+                  </div>
+                </div>
+              </div>
+
+              <div className="our_services_container_content_gallery_item smaller">
+                <a href="/services/education" className="portfolio-link" data-toggle="modal">
+                  <img src={educationImg} className="img-responsive" alt="" />
+                </a>
+                <div className="our_services_container_content_gallery_item_caption">
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Education
+                  </div>
+                </div>
+              </div>
+
+              <div className="our_services_container_content_gallery_item smaller">
+                <a href="/services/maintenance" className="portfolio-link" data-toggle="modal">
+                  <img src={maintenanceImg} className="img-responsive" alt="" />
+                </a>
+                <div className="our_services_container_content_gallery_item_caption">
+                  <div className="our_services_container_content_gallery_item_caption_title">
+                    Maintenance
+                  </div>
                 </div>
               </div>
             </div>
