@@ -83,7 +83,7 @@
 }
 #navigation .brand a {
   margin: 0;
-  font-size: 1.3em;
+  font-size: 28px;
 }
 @media screen and (min-width: 48.25em) {
   #navigation a.menu-link {

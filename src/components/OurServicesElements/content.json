@@ -1,0 +1,35 @@
+{
+    "imageSource":{
+        "palletization":"../media/images/palletization.jpg",
+        "metalForming":"../../media/images/robot_bending.jpg",
+        "customCells":"../../media/images/cell.jpg",
+        "customGrippers":"../../media/images/gripper.jpg",
+        "packing":"../../media/images/packaging.avif",
+        "milling":"../../media/images/milling.png",
+        "consulting":"../../media/images/consulting.jpg",
+        "education":"../../media/images/education.jpg",
+        "maintenance":"../../media/images/maintenance.jpg"
+    },
+    "title": {
+        "palletization":"Palletization",
+        "metalForming":"Metal Forming",
+        "customCells":"Custom Cells",
+        "customGrippers":"Custom Grippers And Tools",
+        "packing":"Packing",
+        "milling":"Milling",
+        "consulting":"Consulting",
+        "education":"Education",
+        "maintenance":"Maintenance"
+    },
+    "description": {
+        "palletization":"We are creating palletization stations for a broad weights and sizes of products from couple of kilograms to hundreds with possibilites of custom made grippers. Stations can include one or multiple robots as well as additional axes like linear tracks.",
+        "metalForming":"Industrial robots can be used to serve a bending machines by placing metal sheets inside the machines and taking them out after a metal forming process. This leads to increased productivity when large number of identical or similar parts are being made on the same machine.",
+        "customCells":"Each robotic cell has to fit into a certain enviroment inside the industrial facility. The best way to achieve this is often creation of custom made robotic cell which will be created with respect to particular demands and constrains of facility for which its being made.",
+        "customGrippers":"Each application of industrial robots requires specific tools and grippers which is highly dependent on the application where robot is being used. Considering this, custom made tools and grippers are often either mandatory or they offer a chance to optimize automation process.",
+        "packing":"Packing is perfect example of boring, montonous and usually non-ergonomic task where industrial robots can substitute human by performing packing tasks, faster and more efficient. Ofcourse, by combining different types of robots and grippers broad range of products can be packed.",
+        "milling":"Milling is particulary interesting application of industrial robots because 6-axis robots as well as their external positioners offer great flexibility in milling application. Although robot is not accurate as CNC machine it usually offers much bigger working range and flexibility. Robotic milling is ideal choice for materials like wooden, spongy and gypsum materials. By utilizing CAM softwares robot can create extremely complex geometries.",
+        "consulting":"",
+        "education":"",
+        "maintenance":""
+    }
+}

@@ -13,7 +13,7 @@ function Footer() {
           <div className="footer_content_navigation_item">Contact</div>
         </div>
         <div className="footer_content_copyright">
-          Copyright &copy;autosolutions 2022. All Rights Reserved
+          Sva prava pridržana &copy;autosolutions 2022.
         </div>
       </div>
     </div>

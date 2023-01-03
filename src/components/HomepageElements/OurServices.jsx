@@ -22,14 +22,14 @@ function OurServices() {
             <div className="our_services_container_content_gallery">
               <div className="our_services_container_content_gallery_item">
                 <a
-                  href="/services/palletization"
+                  href="/services/#palletization"
                   className="portfolio-link"
                   data-toggle="modal"
                 >
                   <img
                     src={palletizationImg}
                     className="img-responsive"
-                    alt=""
+                    alt="palletization image"
                   />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
@@ -40,11 +40,11 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a href="/services/bending" className="portfolio-link" data-toggle="modal">
+                <a href="/services/#metalForming" className="portfolio-link" data-toggle="modal">
                   <img
                     src={robot_bendingImg}
                     className="img-responsive"
-                    alt=""
+                    alt="metal forming image"
                   />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
@@ -55,8 +55,8 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a href="/services/custom-grippers" className="portfolio-link" data-toggle="modal">
-                  <img src={gripperImg} className="img-responsive" alt="" />
+                <a href="/services/#customGrippersAndTools" className="portfolio-link" data-toggle="modal">
+                  <img src={gripperImg} className="img-responsive" alt="gripper image" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
                   <div className="our_services_container_content_gallery_item_caption_title">
@@ -66,8 +66,8 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a href="/services/custom-cells" className="portfolio-link" data-toggle="modal">
-                  <img src={cellImg} className="img-responsive" alt="" />
+                <a href="/services/#customCells" className="portfolio-link" data-toggle="modal">
+                  <img src={cellImg} className="img-responsive" alt="cell image" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
                   <div className="our_services_container_content_gallery_item_caption_title">
@@ -77,8 +77,8 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a href="/services/packing" className="portfolio-link" data-toggle="modal">
-                  <img src={packagingImg} className="img-responsive" alt="" />
+                <a href="/services/#packing" className="portfolio-link" data-toggle="modal">
+                  <img src={packagingImg} className="img-responsive" alt="packing image" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
                   <div className="our_services_container_content_gallery_item_caption_title">
@@ -88,8 +88,8 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item">
-                <a href="/services/milling" className="portfolio-link" data-toggle="modal">
-                  <img src={millingImg} className="img-responsive" alt="" />
+                <a href="/services/#milling" className="portfolio-link" data-toggle="modal">
+                  <img src={millingImg} className="img-responsive" alt="milling image" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
                   <div className="our_services_container_content_gallery_item_caption_title">
@@ -99,8 +99,8 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item smaller">
-                <a href="/services/consulting" className="portfolio-link" data-toggle="modal">
-                  <img src={consultingImg} className="img-responsive" alt="" />
+                <a href="/services/#consulting" className="portfolio-link" data-toggle="modal">
+                  <img src={consultingImg} className="img-responsive" alt="consulting image" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
                   <div className="our_services_container_content_gallery_item_caption_title">
@@ -110,8 +110,8 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item smaller">
-                <a href="/services/education" className="portfolio-link" data-toggle="modal">
-                  <img src={educationImg} className="img-responsive" alt="" />
+                <a href="/services/#education" className="portfolio-link" data-toggle="modal">
+                  <img src={educationImg} className="img-responsive" alt="education image" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
                   <div className="our_services_container_content_gallery_item_caption_title">
@@ -121,8 +121,8 @@ function OurServices() {
               </div>
 
               <div className="our_services_container_content_gallery_item smaller">
-                <a href="/services/maintenance" className="portfolio-link" data-toggle="modal">
-                  <img src={maintenanceImg} className="img-responsive" alt="" />
+                <a href="/services/#maintenance" className="portfolio-link" data-toggle="modal">
+                  <img src={maintenanceImg} className="img-responsive" alt="maintenance image" />
                 </a>
                 <div className="our_services_container_content_gallery_item_caption">
                   <div className="our_services_container_content_gallery_item_caption_title">

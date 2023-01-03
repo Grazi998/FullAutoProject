@@ -2,4 +2,7 @@
     --pageIntroMainColor: rgb(255, 0, 0);
     --navigationHeight: 5rem;
     --pageContentSectionHeight: 100vh;
+
+    --pageFont: "Space Grotesk rev=1";
+
 }

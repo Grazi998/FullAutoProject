@@ -3,9 +3,10 @@
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: var(--pageFont);
 }
 
 .container {
-    max-width: calc(1440px - 4rem);
+    max-width: calc(1700px - 4rem);
     margin: 0 auto;
 }
